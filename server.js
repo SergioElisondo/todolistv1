@@ -70,6 +70,13 @@ app.delete('/deleteTodo', (req, res)=>{
     .catch( err => console.log(err))
 })
  
+let http = require('http')
+
+http.createServer(function {req, res} {
+    res.writeHead(200, {"Content-Type": "text/plain"})
+    res.end("hello world\n")
+}).listen(process.env.PORT)
+
 app.listen(process.env.PORT || PORT, ()=>{
     console.log('Server is running, you better catch it!')
 })    
