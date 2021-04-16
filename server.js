@@ -8,6 +8,7 @@ let db,
     dbConnectionStr = process.env.DB_STRING,
     dbName = 'todo'
 
+    console.log(`Using connection this string here: ${dbConnectionStr}`)
 MongoClient.connect(dbConnectionStr, {useUnifiedTopology: true})
     .then(client => {
         console.log(`Hey, connected to ${dbName} database`)
