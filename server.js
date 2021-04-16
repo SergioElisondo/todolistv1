@@ -72,7 +72,7 @@ app.delete('/deleteTodo', (req, res)=>{
  
 let http = require('http')
 
-http.createServer(function {req, res} {
+http.createServer(function (req, res) {
     res.writeHead(200, {"Content-Type": "text/plain"})
     res.end("hello world\n")
 }).listen(process.env.PORT)
