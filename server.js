@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+const http = require('http');
 const MongoClient = require('mongodb').MongoClient
 const PORT = 2121
 require('dotenv').config()
@@ -69,8 +70,7 @@ app.delete('/deleteTodo', (req, res)=>{
     })
     .catch( err => console.log(err))
 })
- 
-let http = require('http')
+
 
 http.createServer(function (req, res) {
     res.writeHead(200, {"Content-Type": "text/plain"})
