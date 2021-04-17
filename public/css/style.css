@@ -12,8 +12,8 @@ html {
     font-size: 62.5%;
     font-weight: bold;
     color: white;
-  text-shadow: 2px 2px 4px #000000;
-  height: 100vh;
+    text-shadow: 2px 2px 4px #000000;
+    height: 100vh;
 }
 
 /* SNOW STATION https://i.pinimg.com/originals/fe/7c/2d/fe7c2d993bfe37e4f9afa4cdffe1d570.gif */
@@ -37,6 +37,7 @@ body{
     margin-left: 30%;
     margin-right: 30%;
     background-color: rgba(0, 0, 0, 0.589);
+    border-radius: px;
     
 }
 
@@ -54,6 +55,7 @@ h1 {
     border: 8px solid white;
     font-size: 4.5vw;
     box-shadow: 2px 2px 4px #000000;
+    border-radius: 4px;
 }
 
 .h1TitleBox{
@@ -61,11 +63,13 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-radius: 4px;
 }
 .completed{
     font-family: 'Indie Flower', cursive;
     text-decoration: line-through;
     color: gray;
+    border-radius: 4px;
 }
 
 .itemsListBox{
@@ -81,6 +85,7 @@ h1 {
     align-items: flex-start;
     border: 8px solid white;
     box-shadow: 2px 2px 4px #000000;
+    border-radius: 4px;
 
 }
 
@@ -95,6 +100,7 @@ h1 {
     align-items: center;
     border: 8px solid white;
     box-shadow: 2px 2px 4px #000000;
+    border-radius: 4px;
 }
 li {
     font-size: 1.8vw;
@@ -111,11 +117,12 @@ li {
     margin-bottom: 7%;
     border: 8px solid white;
     box-shadow: 2px 2px 4px #000000;
+    border-radius: 4px;
     height: 50px;
     
 }
 
-@media (max-width: 482px) {
+@media (max-width: 500px) {
     .bigBox {
     border: 8px solid white;
     box-shadow: 2px 2px 4px #000000;
